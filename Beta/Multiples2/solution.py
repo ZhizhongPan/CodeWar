@@ -20,7 +20,3 @@ class TestCheckChooseMethods(unittest.TestCase):
         self.assertEquals(multiples2(147), "Fang")
         self.assertEquals(multiples2(30), "Foo")
         self.assertEquals(multiples2(51), "Far")
-
-
-if __name__ == '__main__':
-    print multiples2(49)
